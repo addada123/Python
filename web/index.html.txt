@@ -1,0 +1,21 @@
+pg4e_0b825e1ef8=> CREATE OR REPLACE FUNCTION trigger_set_timestamp()
+pg4e_0b825e1ef8-> RETURNS TRIGGER AS $$
+pg4e_0b825e1ef8$> BEGIN
+pg4e_0b825e1ef8$> NEW.updated_at = NOW();
+pg4e_0b825e1ef8$> RETURN NEW;
+pg4e_0b825e1ef8$> END;
+pg4e_0b825e1ef8$> $$ LANGUAGE plpqsql;
+ERROR:  language "plpqsql" does not exist
+pg4e_0b825e1ef8=> CREATE OR REPLACE FUNCTION trigger_set_timestamp()
+pg4e_0b825e1ef8-> RETURNS TRIGGER AS $$
+pg4e_0b825e1ef8$> BEGIN
+pg4e_0b825e1ef8$> NEW.updated_at = NOW();
+pg4e_0b825e1ef8$> RETURN NEW;
+pg4e_0b825e1ef8$> END;
+pg4e_0b825e1ef8$> $$ LANGUAGE plpgsql;
+CREATE FUNCTION
+pg4e_0b825e1ef8=> CREATE TRIGGER set_timestamp
+pg4e_0b825e1ef8-> BEFORE UPDATE ON keyvalue
+pg4e_0b825e1ef8-> FOR EACH ROW
+pg4e_0b825e1ef8-> EXECUTE PROCEDURE trigger_set_timestamp();
+CREATE TRIGGER
