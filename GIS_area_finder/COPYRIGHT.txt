@@ -1,0 +1,58 @@
+
+# COPYRIGHT
+
+Date: 2020-10
+
+
+## SOURCE DATA
+
+3dbuildings uses data from OpenStreetMap and additional sources.
+These sources are not part of and not connected to OpenStreetMap.
+
+You may use, change, distribute data from our sources according to their license conditions.
+
+OpenStreetMap • OpenStreetMap Contributors
+ODbL
+
+Microsoft US 2015 • Microsoft US Building Data 2015
+ODbL
+
+Microsoft US 2018 • Microsoft US Building Data 2018
+ODbL
+
+USGS • USGS
+Custom License
+
+
+## PROCESSED DATA
+
+All modification, analysis, aggregation and derivation procedures are copyrighted by 3dbuildings.
+
+3dbuildings grants you a non-exclusive, non-transferable license to use its data and services in commercial applications.
+Resale of 3dbuildings data and services is prohibited.
+
+
+## LIMITATION OF LIABILITY
+
+You may not knowingly use 3dbuildings service for critical businesses where the use or failure could lead to death,
+injury or significant property damage.
+
+All licensors do not make warranties of fitness, accuracy and non-infringement of third parties rights.
+
+Under no circumstances shall either party be liable for any special, indirect, incidental,
+or consequential damages (including loss of profit, or data) arising out of this agreement or that result
+from your use or the inability to use 3dbuildings data and services.
+
+In no event shall the total liability of either party for all damages, losses,
+and causes of action arising out of or relating to this agreement or your use of the data and services exceed
+the fees paid to 3dbuildings in the twelve months period prior to the date in which the damage occurred.
+
+
+## SERVICE PROVIDER
+
+3dbuildings
+Greifswalder Str. 159
+10409 Berlin
+Germany
+
+VAT ID: DE193930546
